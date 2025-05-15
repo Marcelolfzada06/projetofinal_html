@@ -1,0 +1,8 @@
+footer {
+    position: unset;
+    background-color: #20232a;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+  }

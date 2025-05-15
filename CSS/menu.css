@@ -1,0 +1,19 @@
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  .menu li a:hover {
+    background-color: #444;
+    border-radius: 4px;
+  }
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+    }
+  }
