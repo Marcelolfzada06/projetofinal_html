@@ -45,11 +45,29 @@ p{
   text-align: center; 
 }
 .container {
-  width: 90%;
-  max-width: 1200px;
+  display: flex;
   margin: auto;
 }
 img {
   max-width: 100%;
   height: auto;
+}
+@media (max-width: 1024px){
+
+  .container {
+
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
 }
