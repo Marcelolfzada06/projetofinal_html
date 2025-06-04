@@ -1,8 +1,17 @@
 footer {
-    position: unset;
-    background-color: #20232a;
-    color: #aaa;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 40px;
-  }
+  background-color: #20232a;
+  color: #aaa;
+  padding: 10px 0;
+  margin-top: 40px;
+
+  /* centralizar texto */
+  text-align: center;
+
+  /* garantir que ocupe toda largura */
+  width: 100%;
+
+  /* se precisar, usar flexbox para centralizar conteúdo dentro do footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
